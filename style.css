@@ -14,3 +14,38 @@
     top: 100%;
     left: -285%;
 }
+
+.carousel-control-prev, .carousel-control-next {
+    width: 3%;
+    z-index: 20;
+}
+
+.fa-brands {
+    color: grey;
+}
+
+.icon-link-hover {
+    text-decoration: none;
+}
+
+#custom-footer {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+footer div:nth-child(2) a {
+    color: grey;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+main .carousel-inner .carousel-item .row :hover {
+    transform: scale(1.10);
+    z-index: 10;
+    overflow: visible;
+    transition: all 0.2s ;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
